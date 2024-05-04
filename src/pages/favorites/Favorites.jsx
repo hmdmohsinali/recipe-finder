@@ -5,9 +5,6 @@ import RecipeItem from './../../components/recipe-item/RecipeItem';
 const Favorites = () => {
   const { favoritesList } = useContext(GlobalContext)
 
-  
-
-
   return (
     <div className="py-8 container mx-auto flex flex-wrap justify-center gap-10">
       {favoritesList && favoritesList.length > 0
